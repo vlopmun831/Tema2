@@ -13,14 +13,14 @@ public class Diapositiva12 {
 		System.out.println("Dime un número");
 		
 		int a = scan.nextInt();
+		string  a = impar;
 		
-		String impar = "Es impar";
 		
 		if (a%2 == 0) {
-			impar = "Es par";
+			a = par;
 			
 		}
-		System.out.println(impar);
+		System.out.println("Es impar");
 	}
 }
 

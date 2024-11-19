@@ -15,12 +15,14 @@ public class Diapositiva19 {
 
 		if (num >= 0 && num < 10) {
 			System.out.println("El número tiene una cifra");
+			
 		} else if (num >= 10 && num <= 99) {
 			System.out.println("El número tiene dos cifras");
+			
 		} else if (num > 99 && num <= 999) {
 			System.out.println("El número tiene tres cifras");
+			
 		} else if (num > 999 && num <= 9999) {
-
 			System.out.println("El número tiene cuatro cifras");
 		
 		} else if (num > 9999 && num <= 99999) {
