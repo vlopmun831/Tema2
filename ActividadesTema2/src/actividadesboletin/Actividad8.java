@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
  package actividadesboletin;
+=======
+package actividadesboletin;
+>>>>>>> Stashed changes
 
 import java.util.Scanner;
 
