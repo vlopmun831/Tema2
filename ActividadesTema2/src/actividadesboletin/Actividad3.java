@@ -10,16 +10,43 @@ public class Actividad3 {
 		Scanner scan = new Scanner (System.in);
 		
 		System.out.println("Dime una letra en mayúscula o minúscula");
+		int numero;
 
 		String letra = scan.next();
 		
+
 		if (letra.equals(letra.toUpperCase())) {
 			System.out.println("Es una letra mayúscula");
 			
 		}
-		else {
+		else if (letra.equals(letra.toLowerCase())) {
 			System.out.println("Es una letra minúscula");
 		}
+		else {
+		// a == A
+		// A == A
+		}
+		if (letra.equals(letra.toUpperCase())) {
+			System.out.println("Es una mayúscula");
+		}else if(letra.equals(letra.toLowerCase()))  {
+			System.out.println("Es minúscula");
+		}
+
+		//Es mayuscula
+		if(letra.matches("[A-Z]")) {
+			
+		}
+		// Es minuscula
+		else if(letra.matches("[a-z]")) {
+			
+		}
+		//No es una letra
+		else {
+			
+		}
+			
+		}
+			
 	}
 
-}
+
