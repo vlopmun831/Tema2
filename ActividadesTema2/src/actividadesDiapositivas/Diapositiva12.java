@@ -13,17 +13,17 @@ public class Diapositiva12 {
 		System.out.println("Dime un número");
 		
 		int num= scan.nextInt();
-		String  resultado = "impar";
+	
 		
 		
 		if (num % 2 == 0) {
-			resultado = "par";
+			System.out.println("Par");
 			
-		}
-		System.out.println(resultado);
+		}else {
+		System.out.println("Impar");
 		
 
-	
+		}
 		
 		
 		

@@ -25,7 +25,7 @@ public class Diapositiva20 {
 	
 	if (num1 >= num2  && num2 >= num3) {
 		
-		System.out.println("mayor "+num1+ " intermedio "+ num2 + " menor "+num3);
+		System.out.println(num1+ ">" + num2 + ">" + num3);
 	}else if (num2 >= num1 && num1>=num3) {
 		
 		System.out.println("Mayor "+ num2+ " intermedio " + num1 + " menor " + num3);
@@ -42,6 +42,8 @@ public class Diapositiva20 {
 	}else if (num3>=num2 && num2>=num1) {
 		System.out.println("Mayor "+ num3+ " intermedio "+ num2+ " menor "+ num1);
 		
+	}else {
+		System.out.println("No se pueden ordenar porque algún número presenta error");
 	}
 	
 	}

@@ -27,6 +27,9 @@ public class Diapositiva19 {
 		
 		} else if (num >=10000 && num <= 99999) {
 			System.out.println("El número tiene cinco cifras");
+			
+		}else {
+			System.out.println("Te has pasdo de cifras");
 		}
 
 	}

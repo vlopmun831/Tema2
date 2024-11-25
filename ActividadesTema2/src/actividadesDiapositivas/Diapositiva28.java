@@ -27,6 +27,8 @@ public class Diapositiva28 {
 			
 		}else if (nota >=9 && nota <=10) {
 			System.out.println("Tu nota es sobresaliente");
+		}else {
+			System.out.println("invalueble");
 		}
 
 	}

@@ -24,7 +24,7 @@ public class Actividad6 {
 	if (Math.pow(a,  2)+ Math.pow(b,2) == Math.pow(c,2)) {
 		System.out.println("Es un triángulo rectángulo");
 		
-	}else if (a==b && c!=a || c==a  && b!=c) {
+	}else if (a==b && c!=a || c==a  && b!=c  || b==c && a !=b) {
 		System.out.println("Es un triángulo isósceles");
 		
 	}else if (a==b && a==c) {

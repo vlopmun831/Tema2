@@ -1,4 +1,4 @@
-package actividadesboletin;
+  package actividadesboletin;
 
 import java.util.Scanner;
 

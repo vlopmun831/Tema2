@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
- package actividadesboletin;
-=======
 package actividadesboletin;
->>>>>>> Stashed changes
 
 import java.util.Scanner;
 
@@ -26,28 +22,34 @@ public class Actividad8 {
 		int anno = scan.nextInt();
 		
 		switch (mes) {
-			case 1: 
+			case 1 : 
+			case 3 :
+			case 5 :
+			case 7 :
+			case 8 :
+			case 10 :
+			case 12 :
+					if ( dia >= 1 && dia <=31) {
+						
+						System.out.println("La fecha es válida");
+					}
+					else {
+						System.out.println("Tu fecha no es válida");
+					}
+					break;
+				
 			case 2:
 				if (dia>=1 && dia<=28) {
 					
 					System.out.println("Tu fecha es válida");
-				}else if( (anno % 4== 0 && anno %100 != 0) && (dia >=1 && dia <=28)) {
+				}else if( (anno % 4== 0 && anno %100 != 0) && (dia >=1 && dia <=29)) {
 					System.out.println("Tu fecha es válida");
 					
 				}else {
 					System.out.println("Tu fecha es incorrecta , revisa el dia");
 				}
-				
-			case 3:
-			case 5:
-			case 7:
-			case 8:
-			case 10:
-			case 12:
-				if (dia >=1 && dia <=31) {
-					System.out.println("La fecha es válida");
-				}
 				break;
+				
 			case 4:
 			case 6:
 			case 9:
@@ -67,3 +69,4 @@ public class Actividad8 {
 	}
 
 
+ 
