@@ -17,11 +17,9 @@ Scanner scan = new Scanner(System.in);
 		
 		String contraseña = scan.next();
 		 
-		String nombreCorrecto = "vladi";
-				
-		String contraseñaCorrecta = "daw";
+	
 		
-		if (nombreCorrecto.equals ("vladi") && contraseñaCorrecta.equals( "daw") ) {
+		if (nombre.equals ("vladi") && contraseña.equals( "daw") ) {
 			System.out.println("Has entrado en el sistema");
 		}else {
 			System.out.println("Error");

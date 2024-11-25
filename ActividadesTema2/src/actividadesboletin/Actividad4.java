@@ -18,13 +18,13 @@ public class Actividad4 {
 		
 		int edad = scan.nextInt();
 		
-		System.out.println("¿Estás matriculado?");
+		System.out.println("¿Estás matriculado s/p?");
 		
 		String matrícula = scan.next();
 		
-		if (nota>=5 && edad>= 18 && matrícula.equals("S")) {
+		if (nota>=5 && edad>= 18 && matrícula.equals("s")) {
 			System.out.println("Aceptada");
-		}else if (nota >= 5 && edad >= 18 && matrícula.equals("P")) {
+		}else if (nota >= 5 && edad >= 18 && matrícula.equals("p")) {
 			System.out.println("Posible");
 			
 		}else {

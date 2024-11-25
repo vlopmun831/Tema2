@@ -10,7 +10,7 @@ public class Diapositiva32_1 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Dime un número comprendido entre el 0 y el 9");
+		System.out.println("Dime un número comprendido entre el 0 y el 10");
 		int  número = scan.nextInt();
 		
 		switch (número) {
@@ -46,6 +46,7 @@ public class Diapositiva32_1 {
 			break;
 		case 10:
 			System.out.println("Diez");
+			break;
 			default :
 				System.out.println("Este número no está entre el cero y el diez");
 				

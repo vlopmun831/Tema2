@@ -12,15 +12,22 @@ public class Diapositiva12 {
 		
 		System.out.println("Dime un número");
 		
-		int a = scan.nextInt();
-		string  a = impar;
+		int num= scan.nextInt();
+		String  resultado = "impar";
 		
 		
-		if (a%2 == 0) {
-			a = par;
+		if (num % 2 == 0) {
+			resultado = "par";
 			
 		}
-		System.out.println("Es impar");
+		System.out.println(resultado);
+		
+
+	
+		
+		
+		
+		
 	}
 }
 

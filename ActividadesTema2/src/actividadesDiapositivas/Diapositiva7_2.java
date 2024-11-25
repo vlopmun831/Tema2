@@ -17,7 +17,7 @@ public class Diapositiva7_2 {
 	
 			int b = scan.nextInt();
 			
-			boolean múltiplo = (a % b == 0);
+			boolean múltiplo = (b % a == 0);
 			
 			System.out.println("Esto es " + múltiplo);
 			

@@ -24,11 +24,11 @@ public class Diapositiva30 {
 	if (num >= 0 && num < 10) {
 		System.out.println("Es capicúa");
 		
-	}else if (num >=10 && num <=100 && unidades==decenas ) {
+	}else if (num >=10 && num <100 && unidades==decenas ) {
 		System.out.println("Es capicúa");
 		
 
-	}else if (num>=100 && num <=1000 && unidades==centenas && decenas == millar) {
+	}else if (num>=100 && num < 1000 && unidades==centenas ) {
 		System.out.println("Es capicúa");
 	
 	}else if (num >=1000 && num <10000 && decenas == centenas && unidades==millar) {

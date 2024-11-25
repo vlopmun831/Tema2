@@ -13,7 +13,13 @@ public class Actividad3 {
 
 		String letra = scan.next();
 		
-		if ()
+		if (letra.equals(letra.toUpperCase())) {
+			System.out.println("Es una letra mayúscula");
+			
+		}
+		else {
+			System.out.println("Es una letra minúscula");
+		}
 	}
 
 }

@@ -20,10 +20,14 @@ public class Diapositiva16 {
 		
 		if ( num1 > num2 ) {
 			System.out.println("EL mayor es "+ num1);
-		}else {
-			System.out.println("El mayoe es "+ num2);
+		}
+		else  if (num2>num1) {
+			System.out.println("El mayor es "+ num2);
 			
 			
+		}
+		else {
+			System.out.println(num1+" es igual a "+num2);
 		}
 	}
 

@@ -21,17 +21,18 @@ public class Diapositiva32 {
 		
 		int kilosPorAnimal = scan.nextInt();
 		
-		int comidaNecesaria = numAnimales*kilosPorAnimal;
 		
 		
-		if (comidaNecesaria<=comidaDiaria) {
+		if (comidaDiaria >= (numAnimales * kilosPorAnimal) ) {
 			System.out.println("Tienes comida suficiente para los animales");
-		}else if (comidaNecesaria>=comidaDiaria) {
+			
+			
+		}else if (comidaDiaria < (numAnimales * kilosPorAnimal)) {
 			System.out.println("No tienes suficiente comida");
+			
 			System.out.println("Cada animal recibira "+ comidaDiaria / numAnimales+ " kilos de comida");
+		
 		}
-		
-		
 
 	}
 
