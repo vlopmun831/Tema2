@@ -7,11 +7,11 @@ public class Actividad15 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Scanner scan = new Scanner(System.in);
+		Scanner sca = new Scanner(System.in);
 		
 		System.out.println("Dime cuantas acciones vas a querer");
 		
-		int acciones = scan.nextInt();
+		int acciones = sca.nextInt();
 		
 double costeTotal = 0.0;
 		

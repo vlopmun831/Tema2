@@ -30,10 +30,12 @@ public class Diapositiva32 {
 		}else if (comidaDiaria < (numAnimales * kilosPorAnimal)) {
 			System.out.println("No tienes suficiente comida");
 			
-			System.out.println("Cada animal recibira "+ comidaDiaria / numAnimales+ " kilos de comida");
+			
 		
 		}
-
+		else {
+			System.out.println("Cada animal recibira "+ comidaDiaria / numAnimales+ " kilos de comida");
+		}
 	}
 
 }
